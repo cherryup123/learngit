@@ -1,3 +1,21 @@
+文本写入
+with open("a.txt",'a') as file:
+    file.write("content")
+    file.writelines(["a","b"])
+a 是追加 w 是清空再写入 r 只读
+
+字典
+
+html标签
+导入lxml包
+from lxml import etree
+#定位内容
+document=etree.HTML('<html><p>123</p></html>')
+ele=document.xpath('/html/body/p/text()')
+print(ele)
+
+折行 
+空格+/   三个单引号
 
 类的继承
 父类
