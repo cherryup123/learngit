@@ -68,6 +68,6 @@ if __name__=="__main__":
 # print(s)
 
 s=123
-print(s/100)
+print(s/100)1
 
 
