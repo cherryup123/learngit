@@ -1,0 +1,5 @@
+element=driver.find_element(...)
+select=Select(element)
+select_by_value(选项的value值)
+select_by_index(第几个选项)
+select_by_visible_text()
