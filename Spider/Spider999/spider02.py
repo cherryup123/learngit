@@ -5,7 +5,7 @@
 #实现爬虫v2.0
 
 import requests
-from Spider.Spider.spider01 import spider_v1          #程序头部引用
+from Spider.Spider999.spider01 import spider_v1          #程序头部引用
 class spider_v2(spider_v1):                           #子类定义
     def __init__(self,url):                           #子类初始化参数
         self.url=url
