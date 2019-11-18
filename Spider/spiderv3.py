@@ -7,13 +7,16 @@ class spiderv3(spiderv2):
     def postion(self,stage):
         document=etree.HTML(stage)
         ele=document.xpath('//*[@id="resultList"]/div[4]/p/span/a/@title')
-#        print(ele)
+        # dic={}
+        # dic['公司名称'] = ele
+        # print (ele)
+        # return (dic)
 
-        for i in range(2,5):
-            ele1=document.xpath('//*[@id="resultList"]/div[4]/span['+str(i)+']/text()')
-            ele.append(ele1)
+        # for i in range(2,5):
+        #     ele1=document.xpath('//*[@id="resultList"]/div[4]/span['+str(i)+']/text()')
+        #     ele.append(ele1)
+        # # return (ele)
         # return (ele)
-        return (ele)
     def save_data(self,data):
         with open('t.txt','w') as file:
             file.writelines(str(data))

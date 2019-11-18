@@ -1,11 +1,4 @@
-自动化测试框架
-#任务分解
-1.测试用例
-2.BaseTestCase  
-测试用例相同部分提取出来，比如打开关闭浏览器，登陆网址
-3.数据驱动测试 
-数据和逻辑分离，同一个功能至少测试一种正常情况和N种异常情况
-4.测试报告  
+
 批量执行测试用例
 if __name__ == '__main__':
     suite=unittest2.defaultTestLoader.discover("./TestCase","*Test.py")
@@ -14,7 +7,7 @@ if __name__ == '__main__':
     file=open(path,'wb')
     HTMLTestRunner(stream=file,verbosity=1,title="自动化测试报告",description="测试环境：Chorme",tester="changcheng").run(suite)
 二进制文件，测试报告详细程度，报告的标题，报告的正文，测试人员
-5.检查点
+5
 
 #技术实验
 1.导包 unittest2 单元测试框架
@@ -64,15 +57,10 @@ class registerTest3(BaseTestCase):
     def test_register(self,row):
         self.driver.find_element_by_name("username").send_keys(row[0])
        
-9.读写txt文件
-path=r"D:\learngit\web_auto\SeleniumTest2\func\1.txt"
-with open(path,'a')as file:
-    file.write("a1")                           写入字符串
-    file.writelines(["a","bb","cc","dd"])     写入列表
-a  追加  w 清空再写入 r 只读 
+
 
 10.文件路径  
-base_path=os.path.dirname("__file__)
+base_path=os.path.dirname("__file__)            
 path=base_path.replace("func","test_data/"+filename)
 
 
