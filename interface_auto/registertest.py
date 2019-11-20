@@ -10,7 +10,9 @@ class register_test:
     def register_test(self):
         s=requests.session()
         response=s.post(self.url,data=self.userinfo).json()
-        return response
+        print(response)
 if __name__ == '__main__':
     user1=register_test()
-    print(user1.register_test())
+    user1.register_test()
+
+

@@ -54,7 +54,7 @@ import ddt                       导入ddt包
 class registerTest3(BaseTestCase):
     table = reader("register_testcases.csv")
     @ddt.data(*table)            方法前加装饰器，将数据源转为为多个参数
-    def test_register(self,row):
+    def test_register(self,row): 
         self.driver.find_element_by_name("username").send_keys(row[0])
        
 

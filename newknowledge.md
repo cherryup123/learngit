@@ -31,13 +31,14 @@ strtolower(I('userverify')) != '1234'
 
 #css定位
 1.多个class  driver.find_element_by_css_selector(".shopCar_btn_03.fl").click()
-2.任意属性定位 driver.find_element_by_css_selector("[value='1']").click() 
-3.id 定位  #   父子关系>  祖先关系  空格
+2.任意属性定位 driver.find_element_by_css_selector("[value*='1']").click() 
+3.id 定位  #   父子关系>  祖先关系  空格  *= 包含 ^=开头 $=结尾
 
 #等待
 1.driver.implicitly(5)  隐式等待  智能等待，自动判断等待时间 程序开始处写一次 页面加载
 2.time.sleep(5)         处理弹出框
-3.WebDriverWait(driver,30,0.5).until(expected_conditions.alert_is_present())  显示等待，满足条件后才不等待
+3.WebDriverWait(driver,30,0.5).until(expected_conditions.alert_is_present()) 
+ 显示等待，满足条件后才不等待
   from selenium.webdriver.support.wait import WebDriverWait
   from selenium.webdriver.support import expected_conditions
 
@@ -98,3 +99,23 @@ file=open(file_path)
 data=csv.reader(file)
 for row in data:
     print(row)
+    
+#python操作数据库
+import mysql.connector
+db=mysql.connector.connect(user='root',password='123456',database="test",charset="utf8")
+cursor=db.cursor() #获取操作游标
+sql='insert  into human4 VALUES ("ming","li","23","2900")'  #插入数据
+cursor.execute(sql)  #执行SQL语句
+db.commit()  #提交到数据库执行
+db.close() 
+sql='''create table human4(first_name char(20) not null,  #创建表
+last_name char(20),age int,income float)'''
+sql='select * from human4 where income >%r' %(1000)  #查询表
+results=cursor.fetchall()
+for row in results:
+    fname=row[0]
+    lname=row[2]
+    age=row[3]
+    income=row[4]
+    print("fname=%s,lname=%s,age=%s,income=%s"%(fname,lname,age,income))
+db.rollback()  #回滚数据

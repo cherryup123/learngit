@@ -5,9 +5,9 @@ class unittest2_Demo(unittest2.TestCase):
     def test_add(self):
         print("4")
     def setUp(self):
-        print("2")
+        print("*****************")
     def tearDown(self):
-        print("3")
+        print("--------------------")
     @classmethod
     def setUpClass(cls):
         print("5")
