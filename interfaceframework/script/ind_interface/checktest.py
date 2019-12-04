@@ -23,6 +23,7 @@ class checkuseremailinfo():
                 file2.write(row[0] + "," + row[1] + "," + row[2] + "," + "测试失败" + "\n")
         file2.close()
 if __name__ == '__main__':
+
     checkobj=checkuseremailinfo()
     checkobj.checktest()
 
