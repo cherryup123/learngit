@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f2344b-0847-46e3-b431-dab961784ac0" name="Default Changelist" comment="11.25">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/test_updateuser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/test_updateuser_v2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/test_updateuser_v3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/mul_interface/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdriver/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdriver/test_runner_v1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdriver/test_runner_v2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdriver/test_runner_v3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testresultfile/frame_result/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testresultfile/ind_result/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testresultfile/mul_result/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/interface_auto/registertest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/interfaceframework/interface.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/interfaceframework/script/frameworktest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ques.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme/study_line.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_auto/chapter4/readme.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/learngit.iml" afterPath="$PROJECT_DIR$/.idea/learngit.iml" />
+    <list default="true" id="d5f2344b-0847-46e3-b431-dab961784ac0" name="Default Changelist" comment="12.04">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/新建 Microsoft Excel 工作表.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/接口测试文档.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/新建 Microsoft Excel 工作表.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/checkresult.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/checkuseremaiinfo.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/test_result.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/testdata.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/testresult2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto/userinfo.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto1/testdata.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_auto1/testresult.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/.idea/interfaceframework.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/HTMLTestRunner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/config.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/config1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/jwtestmall.postman_collection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/config/接口预期结果代码简要说明.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/checkresult.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdatafile/ind_interface/checkuseremailinfo.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdatafile/ind_interface/test_updateuser.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdatafile/ind_interface/userinfo.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testdatafile/mul_interface/test1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaceframework/testresultfile/ind_result/test_updateuser_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfacetest_project/checkresult.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfacetest_project/testresult.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/interfaceframework/sscript/frameworktest.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_auto1/profile.md" afterPath="$PROJECT_DIR$/interface_auto1/profile.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_auto1/study_line" afterPath="$PROJECT_DIR$/interface_auto1/study_line" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summary_python.md" afterPath="$PROJECT_DIR$/summary_python.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interface_auto1/workflow_forgetpassword_v5.py" afterPath="$PROJECT_DIR$/interfaceframework/script/mul_interface/workflow_forgetpassword_v5.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interface_auto1/workflow_homework1.py" afterPath="$PROJECT_DIR$/interfaceframework/script/mul_interface/workflow_homework1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaceframework/sscript/__init__.py" afterPath="$PROJECT_DIR$/interfaceframework/script/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaceframework/sscript/ind_interface/__init__.py" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfaceframework/sscript/mul_interface/__init__.py" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/framework_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfacetest_project/checktest.py" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/checktest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfacetest_project/logintest.py" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/logintest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interfacetest_project/registertest.py" afterPath="$PROJECT_DIR$/interfaceframework/script/ind_interface/registertest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -324,6 +325,11 @@
             <path>
               <item name="learngit" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngit" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_auto1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngit" type="b2602c69:ProjectViewProjectNode" />
@@ -688,7 +694,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574671900727</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="12.04">
+      <created>1575464239419</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575464239419</updated>
+    </task>
+    <task id="LOCAL-00020" summary="12.04">
+      <created>1575464541660</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575464541660</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -726,7 +746,7 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="84107000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -738,15 +758,16 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1162" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18304536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37594798" sideWeight="0.16306695" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28710726" sideWeight="0.84935206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47453955" sideWeight="0.836933" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936078" sideWeight="0.56317496" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18304536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2936078" sideWeight="0.56317496" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.49352053" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -756,7 +777,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -799,7 +819,8 @@
     <MESSAGE value="11.18" />
     <MESSAGE value="11.20" />
     <MESSAGE value="11.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.25" />
+    <MESSAGE value="12.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,16 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interfaceframework/testdatafile/ind_interface/userinfo.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interfaceframework/script/ind_interface/registertest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1181,6 +1192,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceframework/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="771" column="14" lean-forward="false" selection-start-line="771" selection-start-column="14" selection-end-line="771" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
